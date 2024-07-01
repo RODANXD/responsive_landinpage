@@ -1,0 +1,30 @@
+.btn-purple {
+    background-color: #825dae;
+    color: white;
+  }
+  
+#btn{
+    background-color: #825dae;
+
+}
+  .btn-outline-purple {
+    border-color: #8064A2;
+    color: #8064A2;
+  }
+  
+  .text-purple {
+    color: #8064A2;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+  
+  .input-group .form-control {
+    border-right: none;
+  }
+  
+  .input-group .btn {
+    border-left: none;
+  }
+  

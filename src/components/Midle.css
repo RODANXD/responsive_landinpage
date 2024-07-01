@@ -1,0 +1,61 @@
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body .icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card:hover .icon {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.card-people:hover {
+  background-color: #6f42c1;
+  color: #fff;
+}
+
+.card-people:hover .text-purple {
+  color: #fff !important;
+}
+
+.card-place:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.card-place:hover .text-success {
+  color: #fff !important;
+}
+
+.card-product:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.card-product:hover .text-danger {
+  color: #fff !important;
+}
+
+.card-program:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.card-program:hover .text-info {
+  color: #fff !important;
+}
+
+.card-people:hover .btn-outline-purple,
+.card-place:hover .btn-outline-success,
+.card-product:hover .btn-outline-danger,
+.card-program:hover .btn-outline-info {
+  background-color: #b2afaf;
+  color: inherit;
+}
